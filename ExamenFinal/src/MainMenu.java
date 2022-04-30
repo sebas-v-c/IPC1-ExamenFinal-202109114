@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class MainMenu {
     public void display() {
         String message = "";
-
         menu(message);
 
         Scanner sc = new Scanner(System.in);
         String option = sc.next();
+
         while (!option.equals("4")) {
             switch (option) {
                 case "1" -> {
